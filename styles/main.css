@@ -5,16 +5,16 @@
   }
   
   html {
-    background-color: rgba(153, 50, 203, 0.5);
     background-image: url("../images/backgroundimage.jpg");
     background-attachment: fixed;
   }
   body {
     font-family: Arial;
+    background-color: rgba(153, 50, 203, 0.7);
   }
 
   header {
-    padding-left: 15px;
+    padding-left: 30px;
     padding-top: 15px;
     display:flex;
     background-image: url("../images/banner.jpg");
@@ -22,6 +22,7 @@
     border-style: solid;
     border-width: 7px;
     border-color: black;
+    border-radius: 2vh;
   }
   header img {
     padding-bottom: 20px;
